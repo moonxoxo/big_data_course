@@ -41,12 +41,15 @@ L'esercizio prevede la progettazione di un sistema informativo per la valorizzaz
 Abbiamo scelto di implementare una soluzione basata su un database a grafo utilizzando Neo4j, in quanto la struttura delle relazioni tra luoghi, eventi e itinerari è naturalmente complessa e multidimensionale.
 
 ## Metodo:
-1) sono stati definiti i nodi (luoghi, itinerari ed eventi) e gli archi (relazioni di : INCLUSO_IN, SI_SVOLGE_IN, VICINO_A, SIMILE_A)
-2) è stato verificato che i nodi e gli archi siano stati creati correttamente
-3) sono eseguite le 3 query:
--1- trovare tutti i luoghi collegati a un certo itinerario tematico
--2- individuare eventi che si svolgono in luoghi vicini tra loro o appartenenti allo stesso tema culturale
--3- individuare quali luoghi dello stesso itinerario sono maggiormente connessi al altri luoghi per vicinanza o similarità tematica 
+
+1. Sono stati definiti i nodi (luoghi, itinerari ed eventi) e gli archi (relazioni di: `INCLUSO_IN`, `SI_SVOLGE_IN`, `VICINO_A`, `SIMILE_A`)
+
+2. È stato verificato che i nodi e gli archi siano stati creati correttamente
+
+3. Sono state eseguite le 3 query:
+   1. Trovare tutti i luoghi collegati a un certo itinerario tematico
+   2. Individuare eventi che si svolgono in luoghi vicini tra loro o appartenenti allo stesso tema culturale
+   3. Individuare quali luoghi dello stesso itinerario sono maggiormente connessi ad altri luoghi per vicinanza o similarità tematica
 
 ### immagine grafo
 ![NO-SQL_grafo](immagini/grafo.png)
