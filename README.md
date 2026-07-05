@@ -58,18 +58,18 @@ Abbiamo scelto di implementare una soluzione basata su un database a grafo utili
 
 
 ## CATALOGO VIDEOGIOCHI
- Per il terzo esercizio abbiamo scelto di sviluppare un catalogo di videogiochi utilizzando un approccio NoSQL Key Document.
+Per il terzo esercizio abbiamo scelto di sviluppare un catalogo di videogiochi utilizzando un approccio NoSQL Key-Document.
 
-Docker: lo abbiamo utilizzato per containerizzare l'ambiente, avviando i server di Elasticsearch e Kibana in modo isolato, replicabile e senza configurazioni software locali.
-
-Elasticsearch: scelto perché, a differenza dei database relazionali tradizionali, memorizza i dati in formato JSON (documenti flessibili e non strutturati) ed è un motore di ricerca ultra-rapido.
-
-Kibana Dev Tools: utilizzato come console nativa per interagire direttamente con il database, permettendoci di inserire un dataset massiccio (60 videogiochi) ed eseguire query di prova in tempo reale.
+- **Docker**: lo abbiamo utilizzato per containerizzare l'ambiente, avviando i server di Elasticsearch e Kibana in modo isolato, replicabile e senza configurazioni software locali.
+- **Elasticsearch**: scelto perché, a differenza dei database relazionali tradizionali, memorizza i dati in formato JSON (documenti flessibili e non strutturati) ed è un motore di ricerca ultra-rapido.
+- **Kibana Dev Tools**: utilizzato come console nativa per interagire direttamente con il database, permettendoci di inserire un dataset massiccio (60 videogiochi) ed eseguire query di prova in tempo reale.
 
 ## Metodo:
-1) è stato costruito un catalogo contenente 60 videogiochi
-2) sono state eseguite 2 query:
--1- trovare tutti i videogiochi che contengono la parola "mondo" nella descrizione 
--2- cercare tutti i videogiochi che appartengono al genere "RPG" e che costano meno di 40 euro
+
+1. È stato costruito un catalogo contenente 60 videogiochi
+
+2. Sono state eseguite 2 query:
+   1. Trovare tutti i videogiochi che contengono la parola "mondo" nella descrizione
+   2. Cercare tutti i videogiochi che appartengono al genere "RPG" e che costano meno di 40 euro
 
 ## per l'esecuzione delle query sulla powershell è stato costruito il file elastic.py
