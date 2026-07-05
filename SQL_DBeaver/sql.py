@@ -5,7 +5,6 @@ conn = sqlite3.connect("cinema-sql.db")
 cursor = conn.cursor()
 
 
-
 # Query all rows
 cursor.execute("""
                SELECT S.data_s FROM SPETTACOLO s ORDER BY S.data_s ASC
@@ -22,7 +21,7 @@ cursor.execute("""
     FROM SPETTACOLO S
     JOIN FILM F ON S.cod_film = F.id_film
     JOIN SALA SA ON S.n_sala = SA.id_sala
-    WHERE S.data_s = '2026-07-0'
+    WHERE S.data_s = '2026-07-01'
     ORDER BY S.orario ASC
 """)
 rows1 = cursor.fetchall()
@@ -61,8 +60,6 @@ rows3 = cursor.fetchall()
 print("\nTasso di occupazione per sala:")
 for row in rows3:
     print(row)
-
-
 
 
 # Close connection
