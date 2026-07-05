@@ -28,7 +28,7 @@ Come interfaccia per costruire questo DBSM usiamo DBeaver.
 
 ### Dunque per l'esecuzione delle query sulla powershell è stato costruito il file sql.py
 
-### immagini SQL
+### Immagini SQL
 ![SQL](immagini/schema_ER.jpg)
 ![SQL](immagini/schema_logico.jpg)
 ![SQL](immagini/diagramma_E-R_singole_entità.png)
@@ -51,7 +51,7 @@ Abbiamo scelto di implementare una soluzione basata su un database a grafo utili
    2. Individuare eventi che si svolgono in luoghi vicini tra loro o appartenenti allo stesso tema culturale
    3. Individuare quali luoghi dello stesso itinerario sono maggiormente connessi ad altri luoghi per vicinanza o similarità tematica
 
-### immagine grafo
+### Immagine grafo
 ![NO-SQL_grafo](immagini/grafo.png)
 
 ### Anche in questo caso, per l'esecuzione delle query sulla powershell è stato costruito il file neo4j_script.py
