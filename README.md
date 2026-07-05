@@ -9,17 +9,22 @@ Infatti i nostri dati sono rappresentati sotto forma di tabelle interconnesse tr
 Come interfaccia per costruire questo DBSM usiamo DBeaver.
 
 ### Metodo:
-1) sono state create le tabelle relative alle entità, con i relativi attributi e chiavi (primarie ed esterne)
----> Script-sql 1 creazione_tabelle.sql
-2) successivamente  sono state popolate tali tabelle 
----> Script-sql 2 popolamento_tabelle.sql; Script-sql 3  estensione poplazione.sql
-3) è stato poi ricostruito l'intero percorso del film "guida galattica per autostoppisti" per evidenziare la logica delle relazioni tra entità sulle slide
----> Script-sql (4) percorso-giuda galattica per autostoppisti.sql
-4) sono state eseguite le 3 query :
--1- elencare gli spettacoli programmati in una determinata data con film e sala
--2- calcolare il numero di biglietti venduti per ciascun film
--3- individuare, per ciascuna sala, il tasso di occupazione medio in base ai biglietti venduti e alla capienza
----> SQL_DBeaver\Script-sql 5 query-esame.sql
+
+1. Sono state create le tabelle relative alle entità, con i relativi attributi e chiavi (primarie ed esterne)
+   - Script SQL 1: `creazione_tabelle.sql`
+
+2. Successivamente sono state popolate tali tabelle
+   - Script SQL 2: `popolamento_tabelle.sql`
+   - Script SQL 3: `estensione_popolazione.sql`
+
+3. È stato poi ricostruito l'intero percorso del film "Guida galattica per autostoppisti" per evidenziare la logica delle relazioni tra entità sulle slide
+   - Script SQL 4: `percorso-guida_galattica_per_autostoppisti.sql`
+
+4. Sono state eseguite le 3 query:
+   1. Elencare gli spettacoli programmati in una determinata data con film e sala
+   2. Calcolare il numero di biglietti venduti per ciascun film
+   3. Individuare, per ciascuna sala, il tasso di occupazione medio in base ai biglietti venduti e alla capienza
+   - Script SQL 5: `SQL_DBeaver/Script-sql_5_query-esame.sql`
 
 ## dunque per l'esecuzione delle query sulla powershell è stato costruito il file sql.py
 
