@@ -25,7 +25,7 @@ Come interfaccia per costruire questo DBSM usiamo DBeaver.
 
 ### immagini SQL
 ![SQL](immagini/schema_ER.jpg)
-![SQL](immagini/schema_logico.png)
+![SQL](immagini/schema_logico.jpg)
 ![SQL](immagini/diagramma_E-R_singole_entità.png)
 ![SQL](immagini/diagramma_E-R.jpeg)
 
