@@ -26,7 +26,7 @@ Come interfaccia per costruire questo DBSM usiamo DBeaver.
    3. Individuare, per ciascuna sala, il tasso di occupazione medio in base ai biglietti venduti e alla capienza
    - Script SQL 5: `SQL_DBeaver/Script-sql_5_query-esame.sql`
 
-## dunque per l'esecuzione delle query sulla powershell è stato costruito il file sql.py
+### Dunque per l'esecuzione delle query sulla powershell è stato costruito il file sql.py
 
 ### immagini SQL
 ![SQL](immagini/schema_ER.jpg)
@@ -54,7 +54,7 @@ Abbiamo scelto di implementare una soluzione basata su un database a grafo utili
 ### immagine grafo
 ![NO-SQL_grafo](immagini/grafo.png)
 
-## anche in questo caso, per l'esecuzione delle query sulla powershell è stato costruito il file neo4j_script.py
+### Anche in questo caso, per l'esecuzione delle query sulla powershell è stato costruito il file neo4j_script.py
 
 
 ## CATALOGO VIDEOGIOCHI
@@ -72,4 +72,4 @@ Per il terzo esercizio abbiamo scelto di sviluppare un catalogo di videogiochi u
    1. Trovare tutti i videogiochi che contengono la parola "mondo" nella descrizione
    2. Cercare tutti i videogiochi che appartengono al genere "RPG" e che costano meno di 40 euro
 
-## per l'esecuzione delle query sulla powershell è stato costruito il file elastic.py
+### Per l'esecuzione delle query sulla powershell è stato costruito il file elastic.py
